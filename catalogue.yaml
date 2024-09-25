@@ -73,6 +73,7 @@
 
   - name: load catalogue data
     ansible.builtin.command: mongo --host mongodb.ammanni.shop < /app/schema/catalogue.js
+    ignore_errors: true
 
   - name: restart catalogue
     ansible.builtin.service:
