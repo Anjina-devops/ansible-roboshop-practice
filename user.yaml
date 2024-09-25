@@ -73,6 +73,7 @@
 
   - name: load user data
     ansible.builtin.command: mongo --host mongodb.ammanni.shop < /app/schema/user.js
+    ignore_errors: true
 
   - name: restart user
     ansible.builtin.service:
