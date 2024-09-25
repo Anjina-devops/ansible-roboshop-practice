@@ -23,7 +23,6 @@ mysql.ammanni.shop
 shipping.ammanni.shop
 
 [rabbitmq]
-rabbitmq.
-
+rabbitmq.ammanni.shop
 [payment]
 payment.ammanni.shop
