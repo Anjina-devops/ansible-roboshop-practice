@@ -24,5 +24,6 @@ shipping.ammanni.shop
 
 [rabbitmq]
 rabbitmq.ammanni.shop
+
 [payment]
 payment.ammanni.shop
